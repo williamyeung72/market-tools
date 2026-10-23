@@ -2,7 +2,7 @@ name: Daily Screener — US (after close)
 
 on:
   schedule:
-    - cron: '30 21 * * 2-6'  # Tue–Sat 9:30pm UTC = 5:30pm ET (Mon covered by weekly_us.yml)
+    - cron: '30 21 * * 1-5'  # Mon–Fri 9:30pm UTC = 5:30pm ET (after close)
   workflow_dispatch:
 
 jobs:
