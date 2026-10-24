@@ -1,8 +1,7 @@
 name: Daily Structure Alerts — Liquid Names
 
 on:
-  schedule:
-    - cron: '0 21 * * 1-5'  # Mon-Fri 9pm UTC = 4pm EST (market close)
+  # Schedule removed on the B-lite fork. Manual runs only.
   workflow_dispatch:
 
 jobs:
